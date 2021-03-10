@@ -6,75 +6,88 @@
 </head>
 <body>
   <h1>Горизонтальное меню</h1>
-  <p><a href="">Главная</a>  <a href="">Каталог</a> &#921; <a href="">Акции</a> &#921; <a href="">О нас</a> 
-    </p>
-  <h1>Меню список</h1>
+  <p><a href="add.html">Главная</a> | <a href="../03_html/site.by/catalog.html">Каталог</a> | <a href="../03_html/site.by/promo.html">Акции</a> | <a href="../03_html/site.by/about.html">О нас</a></p>
+ 
+    <h1>Меню список</h1>
   <ul>
-      <li><a href="">Главная</a></li>
-      <li><a href="">каталог</a></li>
-      <li><a href="">Акции</a></li>
-      <li><a href="">О нас</a></li>
+      <li><a href="add.html">Главная</a></li>
+      <li><a href="../03_html/site.by/catalog.html">каталог</a></li>
+      <li><a href="../03_html/site.by/promo.html">Акции</a></li>
+      <li><a href="../03_html/site.by/about.html">О нас</a></li>
   </ul>
+  
   <h1>Меню с вложенным списком</h1>
   <ul>
-      <li><a href="">Главная</a>
+      <li><a href="add.html">Главная</a>
           <ul>
-          <li><a href="">Новости</a></li>
+          <li><a href="../03_html/site.by/news/news.html">Новости</a></li>
         </ul>
         </li>
-      <li><a href="">Каталог</a>
+      <li><a href="../03_html/site.by/catalog.html">Каталог</a>
         <ul>
-        <li><a href="">Осень-Зима</a></li>
-        <li><a href="">Весна-Лето</a></li>
+        <li><a href="../03_html/site.by/catalog/a_w.html">Осень-Зима</a></li>
+        <li><a href="../03_html/site.by/catalog/s_s.html">Весна-Лето</a></li>
       </ul>
     </li>
-      <li><a href="">Акции</a>
+      <li><a href="../03_html/site.by/promo.html">Акции</a>
         <ul>
-        <li><a href="">Актуальные</a></li>
-        <li><a href="">Прошедшие</a></li>
+        <li><a href="../03_html/site.by/promo/last.html">Актуальные</a></li>
+        <li><a href="../03_html/site.by/promo/old.html">Прошедшие</a></li>
       </ul>
     </li>
-    <li><a href="">О нас</a></li>
+    <li><a href="../03_html/site.by/about.html">О нас</a></li>
       <ul>
-          <li><a href="">Контакты</a></li>
-          <li><a href="">Проезд</a></li>
+          <li><a href="../03_html/site.by/about/contact.html">Контакты</a></li>
+          <li><a href="../03_html/site.by/about/scheme.html">Проезд</a></li>
       </ul>
     </li>
   </ul>
+  
   <h1>Меню таблица с вложенными таблицами</h1>
-  <table width="200px">
+  <table width="400px">
     <tr>
-      <td><a href="">Главная</a></td>
+      <td>
+        <a href="add.html">Главная</a>
+        <table>
+          <tr>
+            <td><a href="../03_html/site.by/news/news.html">Новости</a></td>
+          </tr>
+        </table>
+      </td>
     </tr>
     <tr>
-      <td><a href="">Новости</a></td>
+      <td>
+        <a href="../03_html/site.by/catalog.html">Каталог</a>
+        <table>
+          <tr>
+            <td><a href="../03_html/site.by/catalog/a_w.html">Осень-Зима</a></td>
+          </tr>
+          <tr>
+            <td><a href="../03_html/site.by/catalog/s_s.html">Весна-Лето</a></td>
+          </tr>
+        </table>       
+      </td> 
     </tr>
     <tr>
-      <td><a href="">Каталог</a></td>
-    </tr>
+      <td><a href="../03_html/site.by/promo.html">Акции</a></td>
+      <table>
+        <tr>
+          <td><a href="../03_html/site.by/promo/last.html">Актуальные</a></td>
+        </tr>
+        <tr>
+          <td><a href="../03_html/site.by/promo/old.html">Прошедшие</a></td>
+        </tr>
+      </table>
     <tr>
-      <td align="center"><a href="">Осень-Зима</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="">Весна-Лето</a></td>
-    </tr>
-    <tr>
-      <td><a href="">Акции</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="">Актуальные</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="">Прошедшие</a></td>
-    </tr>
-    <tr>
-      <td><a href="">>О нас</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="">Контакты</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="">Проезд</a></td>
+      <td><a href="../03_html/site.by/about.html">О нас</a></td>
+      <table>
+        <tr>
+          <td><a href="../03_html/site.by/about/contact.html">Контакты</a></td>
+        </tr>
+        <tr>
+          <td><a href="../03_html/site.by/about/scheme.html">Проезд</a></td>
+        </tr>
+      </table>
     </tr>
   </table>
 </body>
