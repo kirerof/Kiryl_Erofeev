@@ -1,0 +1,7 @@
+header{text-align: right;}
+article{font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 20px;}
+article p{text-indent: 2%;}
+article h3{text-decoration: underline;}
+span{white-space: pre;}
