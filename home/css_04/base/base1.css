@@ -1,0 +1,48 @@
+[href^="https"]{
+    background-image: url(../pic/extref.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+p a[href$=".doc"]{
+    background-image: url(../pic/logo-doc.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+p a[href$=".pdf"]{
+    background-image: url(../pic/logo-pdf.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+p a[href$=".zip"]{
+    background-image: url(../pic/logo-zip.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+li a{
+    background-image: url(../pic/logo-list.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+li a:hover[href$=".doc"]{
+    background-image: url(../pic/logo-doc.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+li a:hover[href$=".pdf"]{
+    background-image: url(../pic/logo-pdf.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+li a:hover[href$=".zip"]{
+    background-image: url(../pic/logo-zip.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
